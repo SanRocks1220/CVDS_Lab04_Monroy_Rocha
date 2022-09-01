@@ -1,5 +1,5 @@
 # CVDS_Lab04_Monroy_Rocha
 
-##Integrantes:
+## Integrantes:
 * Miguel Monroy
 * Santiago Rocha
