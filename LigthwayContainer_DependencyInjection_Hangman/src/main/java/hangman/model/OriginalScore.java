@@ -7,6 +7,13 @@ public class OriginalScore implements GameScore {
     public int minimPoints = 0;
 
     /**
+     * Clases de Equivalencia en OriginalScore:
+     * De -Math.inf a 0, todo resultado será 0
+     * Si el resultado es 0, se mantendrá en 0
+     * Si el resultado es mayor que 0, se mantendrá intacto
+     */
+
+    /**
      * Metodo para calcular el puntaje para Hangman, que consiste en:
      * Iniciar con 100 puntos.
      * No se bonifican las letras correctas.

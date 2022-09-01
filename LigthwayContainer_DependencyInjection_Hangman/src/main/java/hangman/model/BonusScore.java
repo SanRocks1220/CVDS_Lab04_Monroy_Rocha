@@ -5,6 +5,13 @@ public class BonusScore implements GameScore{
     int initialScore = 0;
 
     /**
+     * Clases de Equivalencia en BonusScore:
+     * De -Math.inf a 0, todo resultado será 0
+     * Si el resultado es 0, se mantendrá en 0
+     * Si el resultado es mayor que 0, se mantendrá intacto
+     */
+
+    /**
      * Metodo que permite calcular la cantidad de puntos
      * El juego inicia en 0 puntos.
      * Se bonifica con 10 puntos cada letra correcta.

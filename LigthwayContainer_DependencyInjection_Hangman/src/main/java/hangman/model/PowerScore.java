@@ -3,6 +3,15 @@ package hangman.model;
 public class PowerScore implements GameScore{
 
     int initialScore = 0;
+
+    /**
+     * Clases de Equivalencia en PowerScore:
+     * De -Math.inf a 0, todo resultado será 0
+     * Si el resultado es 0, se mantendrá en 0
+     * Si el resultado es mayor que 0 y menor que 500, se mantendrá intacto
+     * Si el resultado es 500, se mantendrá en 500
+     * De 500 a Math.inf, todo resultado será 500
+     */
     
     /**
      * Metodo que permite calcular la cantidad de puntos
